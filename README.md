@@ -14,3 +14,5 @@ Then, clone https://github.com/OneBusAway/onebusaway-gtfs-realtime-visualizer.gi
 And run the visualizer app: java -jar target/onebusaway-gtfs-realtime-visualizer-0.0.1-SNAPSHOT.jar   --vehiclePositionsUrl=file:///<your file directory path>/where_is_my_MARTA_train/trains.pb
 
 Finally, assuming you're located in Atlanta, you can open http://localhost:8080 in your browser and see MARTA train icons move around in a Google Map in real-time! (tested with Google Chrome Canary)
+
+NOTE: When trying the app, remember that the subway doesn't run all night, so you may not see anything when viewing the app late at night. Also, the app was tested and successfully run on the afternoon of Saturday, June 2, so you may need to set your computer's clock to see the app working.
